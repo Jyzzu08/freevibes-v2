@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeVibes 2.0 | Public Showcase</title>
+    <meta
+      name="description"
+      content="Public showcase de FreeVibes 2.0: plataforma musical full-stack con una pista jazz completa en GitHub Pages y la experiencia Docker documentada."
+    />
+    <meta property="og:title" content="FreeVibes 2.0" />
+    <meta
+      property="og:description"
+      content="Public showcase de FreeVibes 2.0 con una cancion jazz completa, arquitectura, stack y pasos para ejecutar la version full-stack."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/freevibes-social-preview.svg" />
+    <link rel="icon" href="./assets/images/logo-freevibes.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="FreeVibes 2.0">
+          <img src="./assets/images/logo-freevibes.png" alt="FreeVibes" />
+          <div>
+            <span>FreeVibes 2.0</span>
+            <small>Public showcase</small>
+          </div>
+        </a>
+
+        <nav class="site-nav">
+          <a href="#catalog">Catalog</a>
+          <a href="#validation">Validation</a>
+          <a href="#architecture">Architecture</a>
+          <a href="#run-local">Run locally</a>
+          <a href="#developer">Developer</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">GitHub Pages demo</p>
+            <h1>FreeVibes 2.0 is public, playable and backed by a full-length jazz track.</h1>
+            <p class="hero-text">
+              Esta pagina sirve una showcase estatica desde GitHub Pages para que cualquier persona
+              pueda explorar el concepto, reproducir una cancion jazz completa y entender la
+              arquitectura sin VPS. La experiencia full-stack completa sigue disponible en local con
+              Docker.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#catalog">Try the showcase</a>
+              <a class="button button-secondary" href="#run-local">Run the full stack</a>
+            </div>
+
+            <ul class="hero-points">
+              <li>Next.js 15 + NestJS + Prisma + PostgreSQL + Redis</li>
+              <li>Playlists, library, player, uploads and admin validated in Docker</li>
+              <li>Prepared for future split deploy across frontend, backend and data services</li>
+            </ul>
+          </div>
+
+          <aside class="hero-panel">
+            <div class="panel-card">
+              <p class="panel-label">What users can try here</p>
+              <ul>
+                <li>Search a curated static catalog</li>
+                <li>Play a complete CC0 jazz track directly from the repo</li>
+                <li>Inspect architecture, stack and validation evidence</li>
+              </ul>
+            </div>
+            <div class="panel-card">
+              <p class="panel-label">Showcase vs full stack</p>
+              <ul>
+                <li>GitHub Pages covers discovery, branding and one full jazz playback flow</li>
+                <li>Docker covers auth, playlists, library, uploads and admin</li>
+                <li>The repository stays honest about what each demo layer can really do</li>
+              </ul>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section section-highlight" id="catalog">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Playable showcase</p>
+              <h2>Listen to the featured full-track jazz demo</h2>
+            </div>
+            <label class="search-shell" for="catalog-search">
+              <span>Search</span>
+              <input
+                id="catalog-search"
+                type="search"
+                placeholder="track, artist, source or mood"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+
+          <div class="catalog-grid" id="catalog-grid" aria-live="polite"></div>
+
+          <div class="audio-shell">
+            <div>
+              <p class="eyebrow">Now playing</p>
+              <h3 id="player-title">Jazz at the park</h3>
+              <p id="player-meta">Manwithmetalpig | Wikimedia Commons session | CC0 jazz duo</p>
+            </div>
+            <audio id="showcase-player" controls preload="none">
+              <source src="./assets/audio/jazz-at-the-park.ogg" type="audio/ogg" />
+            </audio>
+            <p class="audio-note">
+              Esta showcase publica reproduce una cancion jazz completa, legalmente reutilizable y
+              servida directamente desde el repositorio.
+            </p>
+          </div>
+
+          <div class="license-card">
+            <div>
+              <p class="eyebrow">License and source</p>
+              <h3>CC0 jazz track documented inside the repo</h3>
+            </div>
+            <ul class="detail-list">
+              <li>Track: <strong>Jazz at the park</strong></li>
+              <li>Artist / uploader: <strong>Manwithmetalpig</strong></li>
+              <li>
+                Source:
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:Jazz_at_the_park.ogg"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Wikimedia Commons file page
+                </a>
+              </li>
+              <li>
+                License:
+                <a
+                  href="https://creativecommons.org/publicdomain/zero/1.0/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  CC0 1.0 / Public Domain Dedication
+                </a>
+              </li>
+              <li>Repo note: <a href="./audio-license.md">docs/audio-license.md</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section" id="validation">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Validated before publishing</p>
+              <h2>Real checks, not repo theater</h2>
+            </div>
+          </div>
+
+          <div class="validation-grid">
+            <article class="info-card">
+              <h3>Runtime</h3>
+              <ul>
+                <li>Docker Compose healthy with web, api, postgres, redis and nginx</li>
+                <li>Main routes responding through direct ports and proxy</li>
+                <li>Seed and Prisma migrations validated against PostgreSQL</li>
+              </ul>
+            </article>
+            <article class="info-card">
+              <h3>Flows</h3>
+              <ul>
+                <li>register, login, logout and profile update</li>
+                <li>browse, search, artist, album and playlist pages</li>
+                <li>favorites, saved albums, followed artists and playback history</li>
+              </ul>
+            </article>
+            <article class="info-card">
+              <h3>Quality</h3>
+              <ul>
+                <li>lint, tests, build, e2e and prisma validate executed successfully</li>
+                <li>playlist reorder bug fixed with regression coverage</li>
+                <li>uploads hardened and the public audio source is documented with license metadata</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="architecture">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Architecture</p>
+              <h2>Built to be portfolio-ready today and deployable tomorrow</h2>
+            </div>
+          </div>
+
+          <div class="architecture-grid">
+            <article class="info-card">
+              <h3>Frontend</h3>
+              <p>
+                Next.js App Router, Zustand player state, Tailwind styling and a FreeVibes visual
+                system centered on black, yellow and white.
+              </p>
+            </article>
+            <article class="info-card">
+              <h3>Backend</h3>
+              <p>
+                NestJS modules for auth, catalog, playlists, library, playback, uploads and admin,
+                with DTO validation, guards and Swagger.
+              </p>
+            </article>
+            <article class="info-card">
+              <h3>Data</h3>
+              <p>
+                Prisma over PostgreSQL, Redis ready for infra growth, and a bundled legacy XML
+                dataset so the repository can seed itself without external folders.
+              </p>
+            </article>
+            <article class="info-card">
+              <h3>Hosting strategy</h3>
+              <p>
+                GitHub Pages serves this public showcase. The full stack remains Docker-driven and
+                ready for a future split deploy to managed backend and database services.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="run-local">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Full stack demo</p>
+              <h2>Run the complete experience locally</h2>
+            </div>
+          </div>
+
+          <div class="run-grid">
+            <article class="info-card">
+              <h3>Docker-first</h3>
+              <pre><code>docker compose up --build</code></pre>
+              <p>
+                Web on <code>localhost:3000</code>, API on <code>localhost:3001</code>, Swagger on
+                <code>/docs</code> and unified proxy on <code>localhost:8080</code>.
+              </p>
+            </article>
+            <article class="info-card">
+              <h3>Demo credentials</h3>
+              <ul>
+                <li>Admin: <code>admin@freevibes.local / FreevibesAdmin123!</code></li>
+                <li>User: <code>listener@freevibes.local / FreevibesUser123!</code></li>
+              </ul>
+            </article>
+            <article class="info-card">
+              <h3>Public repo note</h3>
+              <p>
+                GitHub Pages cannot host the full NestJS + PostgreSQL stack. This showcase is the
+                public entry point and includes a full jazz track. Docker remains the source of
+                truth for the complete product.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="developer">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Built by</p>
+              <h2>Jesus Manzanero</h2>
+            </div>
+          </div>
+
+          <div class="developer-card">
+            <p>
+              Full-stack developer focused on modern web products, backend architecture, clean
+              developer experience and deployable systems.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="button button-secondary"
+                href="https://github.com/Jyzzu08/freevibes-v2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source code
+              </a>
+              <a
+                class="button button-primary"
+                href="https://github.com/Jyzzu08"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub profile
+              </a>
+              <a
+                class="button button-secondary"
+                href="https://www.jesusmanzanero.info/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Portfolio
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>
+          FreeVibes 2.0 public showcase. GitHub Pages serves the full-length CC0 jazz demo, Docker
+          powers the complete full-stack experience.
+        </p>
+      </footer>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

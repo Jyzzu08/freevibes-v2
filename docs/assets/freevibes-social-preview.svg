@@ -1,0 +1,16 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#050505"/>
+  <circle cx="981" cy="116" r="214" fill="#FFD54A" fill-opacity="0.1"/>
+  <circle cx="181" cy="84" r="182" fill="#FFD54A" fill-opacity="0.08"/>
+  <rect x="70" y="72" width="1060" height="486" rx="36" fill="#101010" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="108" y="108" width="120" height="120" rx="28" fill="#FFD54A" fill-opacity="0.14" stroke="rgba(255,213,74,0.26)"/>
+  <text x="268" y="150" fill="#FFD54A" font-family="Space Grotesk, Arial, sans-serif" font-size="24" letter-spacing="6">FREEVIBES 2.0</text>
+  <text x="268" y="236" fill="#F6F6F6" font-family="Space Grotesk, Arial, sans-serif" font-size="68" font-weight="700">Portfolio-grade streaming</text>
+  <text x="268" y="308" fill="#F6F6F6" font-family="Space Grotesk, Arial, sans-serif" font-size="68" font-weight="700">platform with public demo</text>
+  <text x="268" y="378" fill="#B5B5B5" font-family="IBM Plex Sans, Arial, sans-serif" font-size="28">Next.js | NestJS | Prisma | PostgreSQL | Redis | Docker</text>
+  <rect x="108" y="438" width="286" height="58" rx="29" fill="#FFD54A"/>
+  <text x="146" y="474" fill="#141414" font-family="IBM Plex Sans, Arial, sans-serif" font-size="24" font-weight="700">Full-length jazz Pages demo</text>
+  <rect x="414" y="438" width="290" height="58" rx="29" fill="#151515" stroke="rgba(255,255,255,0.12)"/>
+  <text x="452" y="474" fill="#F6F6F6" font-family="IBM Plex Sans, Arial, sans-serif" font-size="24" font-weight="700">Docker full-stack experience</text>
+  <text x="108" y="536" fill="#B5B5B5" font-family="IBM Plex Sans, Arial, sans-serif" font-size="24">Built by Jesus Manzanero | github.com/Jyzzu08 | jesusmanzanero.info</text>
+</svg>

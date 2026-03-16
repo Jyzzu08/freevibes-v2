@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Archivo grupos.xml
+Este archivo almacena la información de grupos musicales, sus discos y las canciones correspondientes.
+La estructura jerárquica es la siguiente:
+  Grupos
+    └── Grupo (atributo id)
+          ├── Nombre
+          ├── Genero
+          └── Discos
+                └── Disco (atributo id)
+                      ├── Titulo
+                      ├── FechaLanzamiento (formato YYYY-MM-DD)
+                      ├── DuracionTotal (formato MM:SS)
+                      └── Canciones
+                            └── Cancion (atributo id)
+                                  ├── Titulo
+                                  └── Duracion (formato MM:SS)
+-->
+<Grupos>
+  <!-- Grupo 1: Información sobre "Luna Smith" (género Pop) -->
+  <Grupo id="G001">
+    <Nombre>Luna Smith</Nombre>
+    <Genero>Pop</Genero>
+    <Discos>
+      <!-- Primer disco del grupo -->
+      <Disco id="D001">
+        <Titulo>Shining Stars</Titulo>
+        <!-- Fecha de lanzamiento en formato ISO (YYYY-MM-DD) -->
+        <FechaLanzamiento>2023-05-01</FechaLanzamiento>
+        <!-- Duración total en formato MM:SS -->
+        <DuracionTotal>03:20</DuracionTotal>
+        <Canciones>
+          <!-- Canción única del disco -->
+          <Cancion id="C001">
+            <Titulo>Shining Stars</Titulo>
+            <Duracion>03:20</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+      <!-- Segundo disco del grupo -->
+      <Disco id="D002">
+        <Titulo>Dancing Lights</Titulo>
+        <FechaLanzamiento>2023-06-15</FechaLanzamiento>
+        <DuracionTotal>03:45</DuracionTotal>
+        <Canciones>
+          <Cancion id="C002">
+            <Titulo>Dancing Lights</Titulo>
+            <Duracion>03:45</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+    </Discos>
+  </Grupo>
+
+  <!-- Grupo 2: Información sobre "DJ Sonic" (género House) -->
+  <Grupo id="G002">
+    <Nombre>DJ Sonic</Nombre>
+    <Genero>House</Genero>
+    <Discos>
+      <Disco id="D003">
+        <Titulo>Deep Waves</Titulo>
+        <FechaLanzamiento>2022-10-10</FechaLanzamiento>
+        <DuracionTotal>04:15</DuracionTotal>
+        <Canciones>
+          <Cancion id="C003">
+            <Titulo>Deep Waves</Titulo>
+            <Duracion>04:15</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+      <Disco id="D004">
+        <Titulo>Bassline Groove</Titulo>
+        <FechaLanzamiento>2023-02-20</FechaLanzamiento>
+        <DuracionTotal>04:05</DuracionTotal>
+        <Canciones>
+          <Cancion id="C004">
+            <Titulo>Bassline Groove</Titulo>
+            <Duracion>04:05</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+    </Discos>
+  </Grupo>
+
+  <!-- Grupo 3: Información sobre "Emily Clarke" (género Inspirador) -->
+  <Grupo id="G003">
+    <Nombre>Emily Clarke</Nombre>
+    <Genero>Inspirador</Genero>
+    <Discos>
+      <Disco id="D005">
+        <Titulo>Rise Up</Titulo>
+        <FechaLanzamiento>2021-12-05</FechaLanzamiento>
+        <DuracionTotal>03:45</DuracionTotal>
+        <Canciones>
+          <Cancion id="C005">
+            <Titulo>Rise Up</Titulo>
+            <Duracion>03:45</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+      <Disco id="D006">
+        <Titulo>Dream Big</Titulo>
+        <FechaLanzamiento>2022-03-18</FechaLanzamiento>
+        <DuracionTotal>04:10</DuracionTotal>
+        <Canciones>
+          <Cancion id="C006">
+            <Titulo>Dream Big</Titulo>
+            <Duracion>04:10</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+    </Discos>
+  </Grupo>
+
+  <!-- Grupo 4: Información sobre "Alex Bright" (género Inspirador) -->
+  <Grupo id="G004">
+    <Nombre>Alex Bright</Nombre>
+    <Genero>Inspirador</Genero>
+    <Discos>
+      <Disco id="D007">
+        <Titulo>Dream On</Titulo>
+        <FechaLanzamiento>2022-07-30</FechaLanzamiento>
+        <DuracionTotal>04:00</DuracionTotal>
+        <Canciones>
+          <Cancion id="C007">
+            <Titulo>Dream On</Titulo>
+            <Duracion>04:00</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+    </Discos>
+  </Grupo>
+
+  <!-- Grupo 5: Información sobre "Ocean Breeze" (género Relajante) -->
+  <Grupo id="G005">
+    <Nombre>Ocean Breeze</Nombre>
+    <Genero>Relajante</Genero>
+    <Discos>
+      <Disco id="D008">
+        <Titulo>Tranquil Waters</Titulo>
+        <FechaLanzamiento>2023-01-12</FechaLanzamiento>
+        <DuracionTotal>04:30</DuracionTotal>
+        <Canciones>
+          <Cancion id="C008">
+            <Titulo>Tranquil Waters</Titulo>
+            <Duracion>04:30</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+    </Discos>
+  </Grupo>
+
+  <!-- Grupo 6: Información sobre "Nature Bliss" (género Relajante) -->
+  <Grupo id="G006">
+    <Nombre>Nature Bliss</Nombre>
+    <Genero>Relajante</Genero>
+    <Discos>
+      <Disco id="D009">
+        <Titulo>Silent Harmony</Titulo>
+        <FechaLanzamiento>2021-11-25</FechaLanzamiento>
+        <DuracionTotal>03:55</DuracionTotal>
+        <Canciones>
+          <Cancion id="C009">
+            <Titulo>Silent Harmony</Titulo>
+            <Duracion>03:55</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+    </Discos>
+  </Grupo>
+
+  <!-- Grupo 7: Información sobre "Electric Pulse" (género Electrónica) -->
+  <Grupo id="G007">
+    <Nombre>Electric Pulse</Nombre>
+    <Genero>Electrónica</Genero>
+    <Discos>
+      <Disco id="D010">
+        <Titulo>Neon City</Titulo>
+        <FechaLanzamiento>2022-09-15</FechaLanzamiento>
+        <DuracionTotal>03:50</DuracionTotal>
+        <Canciones>
+          <Cancion id="C010">
+            <Titulo>Neon City</Titulo>
+            <Duracion>03:50</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+      <Disco id="D011">
+        <Titulo>Circuit Break</Titulo>
+        <FechaLanzamiento>2023-04-22</FechaLanzamiento>
+        <DuracionTotal>04:20</DuracionTotal>
+        <Canciones>
+          <Cancion id="C011">
+            <Titulo>Circuit Break</Titulo>
+            <Duracion>04:20</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+    </Discos>
+  </Grupo>
+
+  <!-- Grupo 8: Información sobre "Sophie Keys" (género Piano) -->
+  <Grupo id="G008">
+    <Nombre>Sophie Keys</Nombre>
+    <Genero>Piano</Genero>
+    <Discos>
+      <Disco id="D012">
+        <Titulo>Peaceful Melody</Titulo>
+        <FechaLanzamiento>2022-05-05</FechaLanzamiento>
+        <DuracionTotal>03:45</DuracionTotal>
+        <Canciones>
+          <Cancion id="C012">
+            <Titulo>Peaceful Melody</Titulo>
+            <Duracion>03:45</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+    </Discos>
+  </Grupo>
+
+  <!-- Grupo 9: Información sobre "Jazz Collective" (género Jazz) -->
+  <Grupo id="G009">
+    <Nombre>Jazz Collective</Nombre>
+    <Genero>Jazz</Genero>
+    <Discos>
+      <Disco id="D013">
+        <Titulo>Smooth Nights</Titulo>
+        <FechaLanzamiento>2023-03-03</FechaLanzamiento>
+        <DuracionTotal>05:15</DuracionTotal>
+        <Canciones>
+          <Cancion id="C013">
+            <Titulo>Smooth Nights</Titulo>
+            <Duracion>05:15</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+      <Disco id="D014">
+        <Titulo>Late Night Blues</Titulo>
+        <FechaLanzamiento>2023-08-08</FechaLanzamiento>
+        <DuracionTotal>05:10</DuracionTotal>
+        <Canciones>
+          <Cancion id="C014">
+            <Titulo>Late Night Blues</Titulo>
+            <Duracion>05:10</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+    </Discos>
+  </Grupo>
+
+  <!-- Grupo 10: Información sobre "Royal Strings" (género Clásica) -->
+  <Grupo id="G010">
+    <Nombre>Royal Strings</Nombre>
+    <Genero>Clásica</Genero>
+    <Discos>
+      <Disco id="D015">
+        <Titulo>Timeless Symphony</Titulo>
+        <FechaLanzamiento>2021-07-20</FechaLanzamiento>
+        <DuracionTotal>07:30</DuracionTotal>
+        <Canciones>
+          <Cancion id="C015">
+            <Titulo>Timeless Symphony</Titulo>
+            <Duracion>07:30</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+      <Disco id="D016">
+        <Titulo>Eternal Elegance</Titulo>
+        <FechaLanzamiento>2022-12-12</FechaLanzamiento>
+        <DuracionTotal>07:20</DuracionTotal>
+        <Canciones>
+          <Cancion id="C016">
+            <Titulo>Eternal Elegance</Titulo>
+            <Duracion>07:20</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+    </Discos>
+  </Grupo>
+
+  <!-- Grupo 11: Información sobre "Urban Nomad" (género Indie) -->
+  <Grupo id="G011">
+    <Nombre>Urban Nomad</Nombre>
+    <Genero>Indie</Genero>
+    <Discos>
+      <Disco id="D017">
+        <Titulo>Wanderlust</Titulo>
+        <FechaLanzamiento>2023-02-28</FechaLanzamiento>
+        <DuracionTotal>04:00</DuracionTotal>
+        <Canciones>
+          <Cancion id="C017">
+            <Titulo>Wanderlust</Titulo>
+            <Duracion>04:00</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+      <Disco id="D018">
+        <Titulo>Echoes of Tomorrow</Titulo>
+        <FechaLanzamiento>2023-06-10</FechaLanzamiento>
+        <DuracionTotal>04:05</DuracionTotal>
+        <Canciones>
+          <Cancion id="C018">
+            <Titulo>Echoes of Tomorrow</Titulo>
+            <Duracion>04:05</Duracion>
+          </Cancion>
+        </Canciones>
+      </Disco>
+    </Discos>
+  </Grupo>
+</Grupos>

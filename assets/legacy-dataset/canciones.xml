@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Archivo: canciones.xml
+Este documento XML contiene la información de discos y sus respectivas canciones.
+La estructura es:
+  <Discos>
+    └── <Disco id="DXXX">
+          ├── <Titulo>...</Titulo>
+          ├── <FechaLanzamiento>YYYY-MM-DD</FechaLanzamiento>
+          ├── <DuracionTotal>MM:SS</DuracionTotal>
+          └── <Canciones>
+                └── <Cancion id="CXXX">
+                      ├── <Titulo>...</Titulo>
+                      └── <Duracion>MM:SS</Duracion>
+                    </Cancion>
+              </Canciones>
+        </Disco>
+    ...
+  </Discos>
+-->
+<Discos>
+  <!-- Disco 1: Información del álbum "Shining Stars" (referencia Pop) -->
+  <Disco id="D001">
+    <Titulo>Shining Stars</Titulo>
+    <FechaLanzamiento>2023-05-01</FechaLanzamiento>
+    <DuracionTotal>03:20</DuracionTotal>
+    <Canciones>
+      <Cancion id="C001">
+        <Titulo>Shining Stars</Titulo>
+        <Duracion>03:20</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C001A">
+        <Titulo>Starry Night</Titulo>
+        <Duracion>03:40</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 2: Información del álbum "Dancing Lights" (referencia Pop) -->
+  <Disco id="D002">
+    <Titulo>Dancing Lights</Titulo>
+    <FechaLanzamiento>2023-06-15</FechaLanzamiento>
+    <DuracionTotal>03:45</DuracionTotal>
+    <Canciones>
+      <Cancion id="C002">
+        <Titulo>Dancing Lights</Titulo>
+        <Duracion>03:45</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C002A">
+        <Titulo>Moonlit Dance</Titulo>
+        <Duracion>03:55</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 3: Información del álbum "Deep Waves" (referencia House) -->
+  <Disco id="D003">
+    <Titulo>Deep Waves</Titulo>
+    <FechaLanzamiento>2022-10-10</FechaLanzamiento>
+    <DuracionTotal>04:15</DuracionTotal>
+    <Canciones>
+      <Cancion id="C003">
+        <Titulo>Deep Waves</Titulo>
+        <Duracion>04:15</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C003A">
+        <Titulo>Ocean Depth</Titulo>
+        <Duracion>04:10</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 4: Información del álbum "Bassline Groove" (referencia House) -->
+  <Disco id="D004">
+    <Titulo>Bassline Groove</Titulo>
+    <FechaLanzamiento>2023-02-20</FechaLanzamiento>
+    <DuracionTotal>04:05</DuracionTotal>
+    <Canciones>
+      <Cancion id="C004">
+        <Titulo>Bassline Groove</Titulo>
+        <Duracion>04:05</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C004A">
+        <Titulo>Rhythm Pulse</Titulo>
+        <Duracion>04:00</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 5: Información del álbum "Rise Up" (referencia Inspirador) -->
+  <Disco id="D005">
+    <Titulo>Rise Up</Titulo>
+    <FechaLanzamiento>2021-12-05</FechaLanzamiento>
+    <DuracionTotal>03:45</DuracionTotal>
+    <Canciones>
+      <Cancion id="C005">
+        <Titulo>Rise Up</Titulo>
+        <Duracion>03:45</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C005A">
+        <Titulo>Soar Higher</Titulo>
+        <Duracion>03:50</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 6: Información del álbum "Dream Big" (referencia Inspirador) -->
+  <Disco id="D006">
+    <Titulo>Dream Big</Titulo>
+    <FechaLanzamiento>2022-03-18</FechaLanzamiento>
+    <DuracionTotal>04:10</DuracionTotal>
+    <Canciones>
+      <Cancion id="C006">
+        <Titulo>Dream Big</Titulo>
+        <Duracion>04:10</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C006A">
+        <Titulo>Big Dreams</Titulo>
+        <Duracion>04:05</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 7: Información del álbum "Dream On" (referencia Inspirador) -->
+  <Disco id="D007">
+    <Titulo>Dream On</Titulo>
+    <FechaLanzamiento>2022-07-30</FechaLanzamiento>
+    <DuracionTotal>04:00</DuracionTotal>
+    <Canciones>
+      <Cancion id="C007">
+        <Titulo>Dream On</Titulo>
+        <Duracion>04:00</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C007A">
+        <Titulo>Awaken</Titulo>
+        <Duracion>04:05</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 8: Información del álbum "Tranquil Waters" (referencia Relajante) -->
+  <Disco id="D008">
+    <Titulo>Tranquil Waters</Titulo>
+    <FechaLanzamiento>2023-01-12</FechaLanzamiento>
+    <DuracionTotal>04:30</DuracionTotal>
+    <Canciones>
+      <Cancion id="C008">
+        <Titulo>Tranquil Waters</Titulo>
+        <Duracion>04:30</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C008A">
+        <Titulo>Calm Breeze</Titulo>
+        <Duracion>04:35</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 9: Información del álbum "Silent Harmony" (referencia Relajante) -->
+  <Disco id="D009">
+    <Titulo>Silent Harmony</Titulo>
+    <FechaLanzamiento>2021-11-25</FechaLanzamiento>
+    <DuracionTotal>03:55</DuracionTotal>
+    <Canciones>
+      <Cancion id="C009">
+        <Titulo>Silent Harmony</Titulo>
+        <Duracion>03:55</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C009A">
+        <Titulo>Harmony Echo</Titulo>
+        <Duracion>03:50</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 10: Información del álbum "Neon City" (referencia Electrónica) -->
+  <Disco id="D010">
+    <Titulo>Neon City</Titulo>
+    <FechaLanzamiento>2022-09-15</FechaLanzamiento>
+    <DuracionTotal>03:50</DuracionTotal>
+    <Canciones>
+      <Cancion id="C010">
+        <Titulo>Neon City</Titulo>
+        <Duracion>03:50</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C010A">
+        <Titulo>City Lights</Titulo>
+        <Duracion>03:55</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 11: Información del álbum "Circuit Break" (referencia Electrónica) -->
+  <Disco id="D011">
+    <Titulo>Circuit Break</Titulo>
+    <FechaLanzamiento>2023-04-22</FechaLanzamiento>
+    <DuracionTotal>04:20</DuracionTotal>
+    <Canciones>
+      <Cancion id="C011">
+        <Titulo>Circuit Break</Titulo>
+        <Duracion>04:20</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C011A">
+        <Titulo>Electric Surge</Titulo>
+        <Duracion>04:30</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 12: Información del álbum "Peaceful Melody" (referencia Piano) -->
+  <Disco id="D012">
+    <Titulo>Peaceful Melody</Titulo>
+    <FechaLanzamiento>2022-05-05</FechaLanzamiento>
+    <DuracionTotal>03:45</DuracionTotal>
+    <Canciones>
+      <Cancion id="C012">
+        <Titulo>Peaceful Melody</Titulo>
+        <Duracion>03:45</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C012A">
+        <Titulo>Soothing Keys</Titulo>
+        <Duracion>03:50</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 13: Información del álbum "Smooth Nights" (referencia Jazz) -->
+  <Disco id="D013">
+    <Titulo>Smooth Nights</Titulo>
+    <FechaLanzamiento>2023-03-03</FechaLanzamiento>
+    <DuracionTotal>05:15</DuracionTotal>
+    <Canciones>
+      <Cancion id="C013">
+        <Titulo>Smooth Nights</Titulo>
+        <Duracion>05:15</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C013A">
+        <Titulo>Moonlight Serenade</Titulo>
+        <Duracion>05:00</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 14: Información del álbum "Late Night Blues" (referencia Jazz) -->
+  <Disco id="D014">
+    <Titulo>Late Night Blues</Titulo>
+    <FechaLanzamiento>2023-08-08</FechaLanzamiento>
+    <DuracionTotal>05:10</DuracionTotal>
+    <Canciones>
+      <Cancion id="C014">
+        <Titulo>Late Night Blues</Titulo>
+        <Duracion>05:10</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C014A">
+        <Titulo>Blue Shadows</Titulo>
+        <Duracion>05:05</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 15: Información del álbum "Timeless Symphony" (referencia Clásica) -->
+  <Disco id="D015">
+    <Titulo>Timeless Symphony</Titulo>
+    <FechaLanzamiento>2021-07-20</FechaLanzamiento>
+    <DuracionTotal>07:30</DuracionTotal>
+    <Canciones>
+      <Cancion id="C015">
+        <Titulo>Timeless Symphony</Titulo>
+        <Duracion>07:30</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C015A">
+        <Titulo>Eternal Rhapsody</Titulo>
+        <Duracion>07:45</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 16: Información del álbum "Eternal Elegance" (referencia Clásica) -->
+  <Disco id="D016">
+    <Titulo>Eternal Elegance</Titulo>
+    <FechaLanzamiento>2022-12-12</FechaLanzamiento>
+    <DuracionTotal>07:20</DuracionTotal>
+    <Canciones>
+      <Cancion id="C016">
+        <Titulo>Eternal Elegance</Titulo>
+        <Duracion>07:20</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C016A">
+        <Titulo>Elegant Finale</Titulo>
+        <Duracion>07:30</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 17: Información del álbum "Wanderlust" (referencia Indie) -->
+  <Disco id="D017">
+    <Titulo>Wanderlust</Titulo>
+    <FechaLanzamiento>2023-02-28</FechaLanzamiento>
+    <DuracionTotal>04:00</DuracionTotal>
+    <Canciones>
+      <Cancion id="C017">
+        <Titulo>Wanderlust</Titulo>
+        <Duracion>04:00</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C017A">
+        <Titulo>Journey</Titulo>
+        <Duracion>04:15</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+
+  <!-- Disco 18: Información del álbum "Echoes of Tomorrow" (referencia Indie) -->
+  <Disco id="D018">
+    <Titulo>Echoes of Tomorrow</Titulo>
+    <FechaLanzamiento>2023-06-10</FechaLanzamiento>
+    <DuracionTotal>04:05</DuracionTotal>
+    <Canciones>
+      <Cancion id="C018">
+        <Titulo>Echoes of Tomorrow</Titulo>
+        <Duracion>04:05</Duracion>
+      </Cancion>
+      <!-- Canción adicional -->
+      <Cancion id="C018A">
+        <Titulo>Future Echo</Titulo>
+        <Duracion>04:10</Duracion>
+      </Cancion>
+    </Canciones>
+  </Disco>
+</Discos>
