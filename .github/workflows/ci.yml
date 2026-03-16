@@ -11,6 +11,8 @@ on:
 jobs:
   quality:
     runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: postgresql://freevibes:freevibes@localhost:5432/freevibes
 
     steps:
       - name: Checkout
