@@ -584,7 +584,7 @@ export function uploadImage(file: File) {
   formData.append('file', file);
 
   return request<ApiAsset>(
-    '/uploads/images',
+    '/upload-assets/images',
     {
       method: 'POST',
       body: formData,
@@ -598,7 +598,7 @@ export function uploadAudio(file: File) {
   formData.append('file', file);
 
   return request<ApiAsset>(
-    '/uploads/audio',
+    '/upload-assets/audio',
     {
       method: 'POST',
       body: formData,

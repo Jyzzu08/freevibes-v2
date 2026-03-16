@@ -306,7 +306,7 @@ export default function AdminPage() {
           <div className="mt-5 grid gap-4 md:grid-cols-2">
             <label className="rounded-[28px] border border-white/10 bg-black/25 p-4 text-sm">
               <p className="font-medium">Subir portada</p>
-              <p className="mt-2 text-[var(--color-muted)]">JPG, PNG o WEBP hasta 5MB.</p>
+              <p className="mt-2 text-[var(--color-muted)]">JPG, PNG o WEBP hasta 12MB.</p>
               <input
                 type="file"
                 accept="image/png,image/jpeg,image/webp"

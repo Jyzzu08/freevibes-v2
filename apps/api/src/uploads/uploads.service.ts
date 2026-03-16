@@ -19,6 +19,7 @@ const AUDIO_TYPES = new Set([
   'audio/wav',
   'audio/x-wav',
   'audio/ogg',
+  'application/ogg',
 ]);
 
 const MAX_IMAGE_SIZE = 12 * 1024 * 1024;

@@ -1,7 +1,7 @@
 const { rmSync } = require('node:fs');
 const { spawnSync } = require('node:child_process');
 
-const distDir = process.env.NEXT_DIST_DIR || '.next-build';
+const distDir = process.env.NEXT_DIST_DIR || 'node_modules/.cache/next-build';
 
 rmSync(distDir, { recursive: true, force: true });
 

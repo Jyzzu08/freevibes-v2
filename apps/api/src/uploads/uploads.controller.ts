@@ -21,7 +21,7 @@ const MAX_IMAGE_SIZE = 12 * 1024 * 1024;
 const MAX_AUDIO_SIZE = 25 * 1024 * 1024;
 
 @ApiTags('uploads')
-@Controller('uploads')
+@Controller('upload-assets')
 export class UploadsController {
   constructor(private readonly uploadsService: UploadsService) {}
 
@@ -67,7 +67,9 @@ export class UploadsController {
     @CurrentUser() user: AuthenticatedUser,
     @UploadedFile(
       new ParseFilePipeBuilder()
-        .addFileTypeValidator({ fileType: /(mp3|mpeg|wav|x-wav|ogg)$/i })
+        .addFileTypeValidator({
+          fileType: /(mp3|mpeg|wav|x-wav|audio\/ogg|application\/ogg|ogg)$/i,
+        })
         .addMaxSizeValidator({ maxSize: MAX_AUDIO_SIZE })
         .build({ fileIsRequired: true }),
     )
