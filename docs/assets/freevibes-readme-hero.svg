@@ -66,9 +66,9 @@
   <path d="M1145 189C1145 186.262 1148.03 184.63 1150.31 186.137L1177 203.637C1179.07 204.998 1179.07 208.002 1177 209.363L1150.31 226.863C1148.03 228.37 1145 226.738 1145 224V189Z" fill="#FFD54A"/>
   <path d="M1056 230C1074.67 216.667 1093.33 210 1112 210C1130.67 210 1149.33 216.667 1168 230C1186.67 243.333 1205.33 250 1224 250" stroke="rgba(255,213,74,0.72)" stroke-width="5" stroke-linecap="round"/>
 
-  <text x="1030" y="320" fill="#FFD54A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3.2">SHOWCASE + PRODUCT</text>
-  <text x="1030" y="352" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Public showcase</text>
-  <text x="1030" y="382" fill="#B5B5B5" font-family="Inter, Arial, sans-serif" font-size="18">and Docker demo</text>
+  <text x="1030" y="320" fill="#FFD54A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3.2">SHOWCASE + DEMO</text>
+  <text x="1030" y="352" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Pages preview</text>
+  <text x="1030" y="382" fill="#B5B5B5" font-family="Inter, Arial, sans-serif" font-size="18">Docker demo</text>
 
   <rect x="1030" y="404" width="126" height="38" rx="19" fill="url(#accent)"/>
   <text x="1058" y="428" fill="#121212" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">Playlists</text>
