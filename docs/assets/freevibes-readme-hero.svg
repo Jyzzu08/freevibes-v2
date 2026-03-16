@@ -11,12 +11,12 @@
       <stop stop-color="#FFD54A" stop-opacity="0.28"/>
       <stop offset="1" stop-color="#FFD54A" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 154) rotate(124.789) scale(362.113 302.703)">
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1186 160) rotate(122) scale(288 214)">
       <stop stop-color="#FFD54A" stop-opacity="0.14"/>
       <stop offset="1" stop-color="#FFD54A" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="cardStroke" x1="926" y1="86" x2="1304" y2="450" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFD54A" stop-opacity="0.25"/>
+    <linearGradient id="cardStroke" x1="1000" y1="104" x2="1320" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD54A" stop-opacity="0.24"/>
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.08"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
@@ -28,7 +28,8 @@
   <rect width="1440" height="560" fill="#050505"/>
   <rect x="24" y="24" width="1392" height="512" rx="36" fill="url(#bg)" stroke="rgba(255,255,255,0.08)"/>
   <ellipse cx="230" cy="104" rx="316" ry="246" fill="url(#glowA)"/>
-  <ellipse cx="1154" cy="150" rx="278" ry="222" fill="url(#glowB)"/>
+  <ellipse cx="1186" cy="160" rx="236" ry="194" fill="url(#glowB)"/>
+  <rect x="956" y="104" width="1" height="344" fill="rgba(255,255,255,0.08)"/>
 
   <rect x="72" y="76" width="88" height="88" rx="24" fill="#0F0F0F" stroke="rgba(255,213,74,0.36)"/>
   <rect x="90" y="94" width="52" height="52" rx="16" fill="url(#accent)"/>
@@ -40,41 +41,39 @@
   <text x="186" y="114" fill="#FFD54A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4.8">FREEVIBES 2.0</text>
   <text x="186" y="144" fill="#8E8E8E" font-family="Inter, Arial, sans-serif" font-size="16">Docker-first music streaming platform</text>
 
-  <text x="72" y="246" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="78" font-weight="800">FreeVibes 2.0</text>
+  <text x="72" y="246" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="800">FreeVibes 2.0</text>
   <text x="72" y="304" fill="#FFD54A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="6">MODERN FULL-STACK EVOLUTION</text>
-  <text x="72" y="362" fill="#C7C7C7" font-family="Inter, Arial, sans-serif" font-size="28">
+  <text x="72" y="360" fill="#C7C7C7" font-family="Inter, Arial, sans-serif" font-size="27">
     <tspan x="72" dy="0">A cleaner, portfolio-grade streaming experience built with</tspan>
     <tspan x="72" dy="36">Next.js, NestJS, Prisma, PostgreSQL, Redis and Docker.</tspan>
   </text>
 
-  <rect x="72" y="426" width="158" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
-  <text x="101" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Next.js 15</text>
-  <rect x="242" y="426" width="150" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
-  <text x="274" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">NestJS API</text>
-  <rect x="404" y="426" width="140" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
-  <text x="439" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Prisma ORM</text>
-  <rect x="556" y="426" width="164" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
-  <text x="587" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">PostgreSQL</text>
-  <rect x="732" y="426" width="114" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
-  <text x="766" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Redis</text>
-  <rect x="858" y="426" width="128" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
-  <text x="892" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Docker</text>
+  <rect x="72" y="426" width="154" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
+  <text x="100" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Next.js 15</text>
+  <rect x="238" y="426" width="160" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
+  <text x="272" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">NestJS API</text>
+  <rect x="410" y="426" width="156" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
+  <text x="444" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Prisma ORM</text>
+  <rect x="578" y="426" width="132" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
+  <text x="612" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Redis</text>
+  <rect x="722" y="426" width="132" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
+  <text x="756" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Docker</text>
 
-  <rect x="936" y="84" width="372" height="392" rx="30" fill="#0E0E0E" stroke="url(#cardStroke)"/>
-  <rect x="972" y="118" width="300" height="174" rx="24" fill="#121212" stroke="rgba(255,255,255,0.08)"/>
-  <circle cx="1122" cy="205" r="80" fill="rgba(255,213,74,0.12)" stroke="rgba(255,213,74,0.28)"/>
-  <circle cx="1122" cy="205" r="48" fill="rgba(255,213,74,0.18)" stroke="rgba(255,255,255,0.08)"/>
-  <path d="M1102 184.5C1102 181.462 1105.37 179.648 1107.9 181.32L1140.64 202.82C1142.94 204.331 1142.94 207.669 1140.64 209.18L1107.9 230.68C1105.37 232.352 1102 230.538 1102 227.5V184.5Z" fill="#FFD54A"/>
-  <path d="M1001 236C1027 220.333 1053 212.5 1079 212.5C1105 212.5 1131 220.333 1157 236C1183 251.667 1209 259.5 1235 259.5" stroke="rgba(255,213,74,0.72)" stroke-width="5" stroke-linecap="round"/>
+  <rect x="1000" y="102" width="320" height="348" rx="30" fill="#0E0E0E" stroke="url(#cardStroke)"/>
+  <rect x="1030" y="132" width="260" height="148" rx="22" fill="#121212" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="1160" cy="206" r="64" fill="rgba(255,213,74,0.12)" stroke="rgba(255,213,74,0.28)"/>
+  <circle cx="1160" cy="206" r="38" fill="rgba(255,213,74,0.18)" stroke="rgba(255,255,255,0.08)"/>
+  <path d="M1145 189C1145 186.262 1148.03 184.63 1150.31 186.137L1177 203.637C1179.07 204.998 1179.07 208.002 1177 209.363L1150.31 226.863C1148.03 228.37 1145 226.738 1145 224V189Z" fill="#FFD54A"/>
+  <path d="M1056 230C1074.67 216.667 1093.33 210 1112 210C1130.67 210 1149.33 216.667 1168 230C1186.67 243.333 1205.33 250 1224 250" stroke="rgba(255,213,74,0.72)" stroke-width="5" stroke-linecap="round"/>
 
-  <rect x="972" y="320" width="300" height="54" rx="18" fill="#111111" stroke="rgba(255,255,255,0.08)"/>
-  <text x="1002" y="344" fill="#FFD54A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3.2">SHOWCASE + PRODUCT</text>
-  <text x="1002" y="362" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Pages showcase and Docker stack</text>
+  <text x="1030" y="320" fill="#FFD54A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3.2">SHOWCASE + PRODUCT</text>
+  <text x="1030" y="352" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Public entry point.</text>
+  <text x="1030" y="382" fill="#B5B5B5" font-family="Inter, Arial, sans-serif" font-size="18">Pages showcase and Docker-ready full-stack build.</text>
 
-  <rect x="972" y="392" width="138" height="42" rx="21" fill="url(#accent)"/>
-  <text x="1003" y="418" fill="#121212" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Playlists</text>
-  <rect x="1122" y="392" width="128" height="42" rx="21" fill="#151515" stroke="rgba(255,255,255,0.12)"/>
-  <text x="1156" y="418" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Library</text>
+  <rect x="1030" y="404" width="126" height="38" rx="19" fill="url(#accent)"/>
+  <text x="1058" y="428" fill="#121212" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">Playlists</text>
+  <rect x="1168" y="404" width="112" height="38" rx="19" fill="#151515" stroke="rgba(255,255,255,0.12)"/>
+  <text x="1197" y="428" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Library</text>
 
-  <text x="936" y="510" fill="#7D7D7D" font-family="Inter, Arial, sans-serif" font-size="15">Built by Jesus Manzanero  •  Jyzzu08 on GitHub</text>
+  <text x="1000" y="486" fill="#7D7D7D" font-family="Inter, Arial, sans-serif" font-size="15">Built by Jesus Manzanero | Jyzzu08 on GitHub</text>
 </svg>
