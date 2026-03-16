@@ -1,6 +1,6 @@
 # FreeVibes 2.0
 
-![FreeVibes 2.0 preview](./docs/assets/freevibes-social-preview.svg)
+![FreeVibes 2.0 hero](./docs/assets/freevibes-readme-hero.svg)
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
 ![NestJS](https://img.shields.io/badge/NestJS-11-E0234E?logo=nestjs)
@@ -233,7 +233,9 @@ This gives the repo:
 ## Portfolio Assets
 
 - Public showcase: [`docs/`](./docs/)
-- Social preview: [`freevibes-social-preview.svg`](./docs/assets/freevibes-social-preview.svg)
+- README hero: [`freevibes-readme-hero.svg`](./docs/assets/freevibes-readme-hero.svg)
+- Social preview: [`freevibes-social-preview.png`](./docs/assets/freevibes-social-preview.png)
+- Social preview source: [`freevibes-social-preview.svg`](./docs/assets/freevibes-social-preview.svg)
 - Publication copy: [`publication-kit.md`](./docs/publication-kit.md)
 
 ## Roadmap

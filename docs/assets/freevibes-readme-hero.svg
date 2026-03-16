@@ -1,0 +1,80 @@
+<svg width="1440" height="560" viewBox="0 0 1440 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">FreeVibes 2.0 README hero</title>
+  <desc id="desc">Clean horizontal hero banner for the FreeVibes 2.0 repository.</desc>
+  <defs>
+    <linearGradient id="bg" x1="72" y1="48" x2="1368" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171309"/>
+      <stop offset="0.58" stop-color="#0C0C0C"/>
+      <stop offset="1" stop-color="#040404"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(234 88) rotate(36.19) scale(428.817 321.225)">
+      <stop stop-color="#FFD54A" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFD54A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 154) rotate(124.789) scale(362.113 302.703)">
+      <stop stop-color="#FFD54A" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFD54A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardStroke" x1="926" y1="86" x2="1304" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD54A" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFD54A"/>
+      <stop offset="1" stop-color="#F4B100"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="560" fill="#050505"/>
+  <rect x="24" y="24" width="1392" height="512" rx="36" fill="url(#bg)" stroke="rgba(255,255,255,0.08)"/>
+  <ellipse cx="230" cy="104" rx="316" ry="246" fill="url(#glowA)"/>
+  <ellipse cx="1154" cy="150" rx="278" ry="222" fill="url(#glowB)"/>
+
+  <rect x="72" y="76" width="88" height="88" rx="24" fill="#0F0F0F" stroke="rgba(255,213,74,0.36)"/>
+  <rect x="90" y="94" width="52" height="52" rx="16" fill="url(#accent)"/>
+  <path d="M103 125C107.333 115.667 114 111 123 111C132 111 138.667 115.667 143 125" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <path d="M106 129.5H109.5V138.5H106V129.5Z" fill="#111111"/>
+  <path d="M136.5 129.5H140V138.5H136.5V129.5Z" fill="#111111"/>
+  <path d="M116.5 133.5C118.7 135.833 120.867 137 123 137C125.133 137 127.3 135.833 129.5 133.5" stroke="#111111" stroke-width="4.5" stroke-linecap="round"/>
+
+  <text x="186" y="114" fill="#FFD54A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4.8">FREEVIBES 2.0</text>
+  <text x="186" y="144" fill="#8E8E8E" font-family="Inter, Arial, sans-serif" font-size="16">Docker-first music streaming platform</text>
+
+  <text x="72" y="246" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="78" font-weight="800">FreeVibes 2.0</text>
+  <text x="72" y="304" fill="#FFD54A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="6">MODERN FULL-STACK EVOLUTION</text>
+  <text x="72" y="362" fill="#C7C7C7" font-family="Inter, Arial, sans-serif" font-size="28">
+    <tspan x="72" dy="0">A cleaner, portfolio-grade streaming experience built with</tspan>
+    <tspan x="72" dy="36">Next.js, NestJS, Prisma, PostgreSQL, Redis and Docker.</tspan>
+  </text>
+
+  <rect x="72" y="426" width="158" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
+  <text x="101" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Next.js 15</text>
+  <rect x="242" y="426" width="150" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
+  <text x="274" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">NestJS API</text>
+  <rect x="404" y="426" width="140" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
+  <text x="439" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Prisma ORM</text>
+  <rect x="556" y="426" width="164" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
+  <text x="587" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">PostgreSQL</text>
+  <rect x="732" y="426" width="114" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
+  <text x="766" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Redis</text>
+  <rect x="858" y="426" width="128" height="42" rx="21" fill="#121212" stroke="rgba(255,255,255,0.12)"/>
+  <text x="892" y="453" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Docker</text>
+
+  <rect x="936" y="84" width="372" height="392" rx="30" fill="#0E0E0E" stroke="url(#cardStroke)"/>
+  <rect x="972" y="118" width="300" height="174" rx="24" fill="#121212" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="1122" cy="205" r="80" fill="rgba(255,213,74,0.12)" stroke="rgba(255,213,74,0.28)"/>
+  <circle cx="1122" cy="205" r="48" fill="rgba(255,213,74,0.18)" stroke="rgba(255,255,255,0.08)"/>
+  <path d="M1102 184.5C1102 181.462 1105.37 179.648 1107.9 181.32L1140.64 202.82C1142.94 204.331 1142.94 207.669 1140.64 209.18L1107.9 230.68C1105.37 232.352 1102 230.538 1102 227.5V184.5Z" fill="#FFD54A"/>
+  <path d="M1001 236C1027 220.333 1053 212.5 1079 212.5C1105 212.5 1131 220.333 1157 236C1183 251.667 1209 259.5 1235 259.5" stroke="rgba(255,213,74,0.72)" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="972" y="320" width="300" height="54" rx="18" fill="#111111" stroke="rgba(255,255,255,0.08)"/>
+  <text x="1002" y="344" fill="#FFD54A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3.2">SHOWCASE + PRODUCT</text>
+  <text x="1002" y="362" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Pages showcase and Docker stack</text>
+
+  <rect x="972" y="392" width="138" height="42" rx="21" fill="url(#accent)"/>
+  <text x="1003" y="418" fill="#121212" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Playlists</text>
+  <rect x="1122" y="392" width="128" height="42" rx="21" fill="#151515" stroke="rgba(255,255,255,0.12)"/>
+  <text x="1156" y="418" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Library</text>
+
+  <text x="936" y="510" fill="#7D7D7D" font-family="Inter, Arial, sans-serif" font-size="15">Built by Jesus Manzanero  •  Jyzzu08 on GitHub</text>
+</svg>

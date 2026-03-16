@@ -1,16 +1,54 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#050505"/>
-  <circle cx="981" cy="116" r="214" fill="#FFD54A" fill-opacity="0.1"/>
-  <circle cx="181" cy="84" r="182" fill="#FFD54A" fill-opacity="0.08"/>
-  <rect x="70" y="72" width="1060" height="486" rx="36" fill="#101010" stroke="rgba(255,255,255,0.12)"/>
-  <rect x="108" y="108" width="120" height="120" rx="28" fill="#FFD54A" fill-opacity="0.14" stroke="rgba(255,213,74,0.26)"/>
-  <text x="268" y="150" fill="#FFD54A" font-family="Space Grotesk, Arial, sans-serif" font-size="24" letter-spacing="6">FREEVIBES 2.0</text>
-  <text x="268" y="236" fill="#F6F6F6" font-family="Space Grotesk, Arial, sans-serif" font-size="68" font-weight="700">Portfolio-grade streaming</text>
-  <text x="268" y="308" fill="#F6F6F6" font-family="Space Grotesk, Arial, sans-serif" font-size="68" font-weight="700">platform with public demo</text>
-  <text x="268" y="378" fill="#B5B5B5" font-family="IBM Plex Sans, Arial, sans-serif" font-size="28">Next.js | NestJS | Prisma | PostgreSQL | Redis | Docker</text>
-  <rect x="108" y="438" width="286" height="58" rx="29" fill="#FFD54A"/>
-  <text x="146" y="474" fill="#141414" font-family="IBM Plex Sans, Arial, sans-serif" font-size="24" font-weight="700">Full-length jazz Pages demo</text>
-  <rect x="414" y="438" width="290" height="58" rx="29" fill="#151515" stroke="rgba(255,255,255,0.12)"/>
-  <text x="452" y="474" fill="#F6F6F6" font-family="IBM Plex Sans, Arial, sans-serif" font-size="24" font-weight="700">Docker full-stack experience</text>
-  <text x="108" y="536" fill="#B5B5B5" font-family="IBM Plex Sans, Arial, sans-serif" font-size="24">Built by Jesus Manzanero | github.com/Jyzzu08 | jesusmanzanero.info</text>
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">FreeVibes 2.0 social preview</title>
+  <desc id="desc">Social card for the FreeVibes 2.0 GitHub repository.</desc>
+  <defs>
+    <linearGradient id="bg" x1="84" y1="62" x2="1190" y2="578" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171208"/>
+      <stop offset="0.62" stop-color="#0B0B0B"/>
+      <stop offset="1" stop-color="#030303"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(214 136) rotate(31.3867) scale(352.144 266.512)">
+      <stop stop-color="#FFD54A" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#FFD54A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFD54A"/>
+      <stop offset="1" stop-color="#F1B000"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="#050505"/>
+  <rect x="34" y="34" width="1212" height="572" rx="38" fill="url(#bg)" stroke="rgba(255,255,255,0.08)"/>
+  <ellipse cx="220" cy="136" rx="298" ry="228" fill="url(#glow)"/>
+
+  <rect x="88" y="94" width="96" height="96" rx="28" fill="#0F0F0F" stroke="rgba(255,213,74,0.34)"/>
+  <rect x="108" y="114" width="56" height="56" rx="18" fill="url(#accent)"/>
+  <path d="M123 148C127.5 137.333 134 132 142.5 132C151 132 157.5 137.333 162 148" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <path d="M126 153H129.5V162H126V153Z" fill="#111111"/>
+  <path d="M155.5 153H159V162H155.5V153Z" fill="#111111"/>
+  <path d="M135.5 156.5C137.833 159 140.167 160.25 142.5 160.25C144.833 160.25 147.167 159 149.5 156.5" stroke="#111111" stroke-width="4.5" stroke-linecap="round"/>
+
+  <text x="212" y="124" fill="#FFD54A" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="5.4">FREEVIBES 2.0</text>
+  <text x="212" y="154" fill="#909090" font-family="Inter, Arial, sans-serif" font-size="16">Portfolio-grade streaming platform</text>
+
+  <text x="88" y="286" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="88" font-weight="800">FreeVibes 2.0</text>
+  <text x="88" y="346" fill="#FFD54A" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="6.4">NEXT.JS  •  NESTJS  •  PRISMA  •  DOCKER</text>
+  <text x="88" y="410" fill="#D1D1D1" font-family="Inter, Arial, sans-serif" font-size="28">
+    <tspan x="88" dy="0">Premium black, yellow and white streaming platform</tspan>
+    <tspan x="88" dy="38">with playlists, library, uploads and admin tooling.</tspan>
+  </text>
+
+  <rect x="88" y="486" width="286" height="56" rx="28" fill="url(#accent)"/>
+  <text x="122" y="521" fill="#101010" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Pages showcase</text>
+  <rect x="392" y="486" width="272" height="56" rx="28" fill="#141414" stroke="rgba(255,255,255,0.12)"/>
+  <text x="429" y="521" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Docker stack demo</text>
+
+  <rect x="888" y="128" width="274" height="274" rx="34" fill="#101010" stroke="rgba(255,255,255,0.1)"/>
+  <circle cx="1025" cy="265" r="92" fill="rgba(255,213,74,0.12)" stroke="rgba(255,213,74,0.28)"/>
+  <circle cx="1025" cy="265" r="56" fill="rgba(255,213,74,0.18)" stroke="rgba(255,255,255,0.08)"/>
+  <path d="M1003 241C1003 237.658 1006.71 235.663 1009.49 237.502L1045.33 261.169C1047.85 262.831 1047.85 266.519 1045.33 268.181L1009.49 291.848C1006.71 293.687 1003 291.692 1003 288.35V241Z" fill="#FFD54A"/>
+  <path d="M930 315C955.833 297.667 981.667 289 1007.5 289C1033.33 289 1059.17 297.667 1085 315C1110.83 332.333 1136.67 341 1162.5 341" stroke="rgba(255,213,74,0.72)" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="888" y="458" fill="#F5F5F5" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Built by Jesus Manzanero</text>
+  <text x="888" y="492" fill="#8F8F8F" font-family="Inter, Arial, sans-serif" font-size="17">Jyzzu08  •  jesusmanzanero.info</text>
 </svg>
